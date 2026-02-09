@@ -20,7 +20,7 @@ export default function Navbar() {
                         <a href="#problem" className="text-text/80 hover:text-primary transition-colors text-sm font-medium">Why BIKFix</a>
                         <a href="#pricing" className="text-text/80 hover:text-primary transition-colors text-sm font-medium">Pricing</a>
                         <a href="#faq" className="text-text/80 hover:text-primary transition-colors text-sm font-medium">FAQ</a>
-                        <a href="mailto:suseendarannair@gmail.com" className="text-text/80 hover:text-primary transition-colors text-sm font-medium">Contact</a>
+                        <a href="#contact" className="text-text/80 hover:text-primary transition-colors text-sm font-medium">Contact</a>
                         <a
                             href="https://bitfix-production.up.railway.app"
                             className="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-lg font-semibold transition-all shadow-sm hover:shadow-md"
@@ -49,7 +49,7 @@ export default function Navbar() {
                         <a href="#problem" className="block px-3 py-2 text-text hover:text-primary hover:bg-cyan-50 rounded-md">Why BIKFix</a>
                         <a href="#pricing" className="block px-3 py-2 text-text hover:text-primary hover:bg-cyan-50 rounded-md">Pricing</a>
                         <a href="#faq" className="block px-3 py-2 text-text hover:text-primary hover:bg-cyan-50 rounded-md">FAQ</a>
-                        <a href="mailto:suseendarannair@gmail.com" className="block px-3 py-2 text-text hover:text-primary hover:bg-cyan-50 rounded-md">Contact</a>
+                        <a href="#contact" className="block px-3 py-2 text-text hover:text-primary hover:bg-cyan-50 rounded-md">Contact</a>
                         <a
                             href="https://bitfix-production.up.railway.app"
                             className="block w-full text-center mt-4 bg-primary text-white px-4 py-3 rounded-lg font-bold"

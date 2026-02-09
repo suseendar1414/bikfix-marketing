@@ -26,7 +26,7 @@ export default function Footer() {
                         <ul className="space-y-2 text-sm text-gray-400">
                             <li><a href="https://app.bikfix.com/terms" className="hover:text-primary transition-colors">Terms of Service</a></li>
                             <li><a href="https://app.bikfix.com/privacy" className="hover:text-primary transition-colors">Privacy Policy</a></li>
-                            <li><a href="mailto:suseendarannair@gmail.com" className="hover:text-primary transition-colors">Contact Support</a></li>
+                            <li><a href="#contact" className="hover:text-primary transition-colors">Contact Support</a></li>
                         </ul>
                     </div>
                 </div>
