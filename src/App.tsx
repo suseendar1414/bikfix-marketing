@@ -6,6 +6,7 @@ import Solution from './components/Solution';
 import Features from './components/Features';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Features />
         <Pricing />
         <FAQ />
+        <Contact />
       </main>
       <Footer />
     </div>
