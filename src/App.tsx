@@ -1,29 +1,20 @@
 
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Problem from './components/Problem';
-import Solution from './components/Solution';
-import Features from './components/Features';
-import Pricing from './components/Pricing';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <div className="min-h-screen font-sans bg-background text-text antialiased scroll-smooth">
-      <Navbar />
-      <main>
-        <Hero />
-        <Problem />
-        <Solution />
-        <Features />
-        <Pricing />
-        <FAQ />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+      </Routes>
+    </Router>
   )
 }
 
