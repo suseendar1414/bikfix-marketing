@@ -5,23 +5,6 @@ export default function Footer() {
     const location = useLocation();
     const isHome = location.pathname === '/';
 
-    const scrollToSection = (id: string) => {
-        if (isHome) {
-            const element = document.getElementById(id);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
-    };
-
-    const getLink = (id: string, text: string) => {
-        if (isHome) {
-            return <a href={`#${id}`} className="hover:text-primary transition-colors">{text}</a>
-        } else {
-            return <Link to={`/#${id}`} className="hover:text-primary transition-colors">{text}</Link> // Simple redirect to home
-        }
-    };
-
 
     return (
         <footer className="bg-text text-white py-12 border-t border-gray-800">
